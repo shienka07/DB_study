@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T09:09:59.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Iyb0PYhOuvYBllMxEYLs" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T09:48:45.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-WFbY43AxhlT3VOtA9_3" version="14.8.4" type="github">
   <diagram id="i7f_SvSBmSewAzXp0OPW" name="Page-1">
-    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2844" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,6 +240,20 @@
         <mxCell id="ZYB_Mh2plfckTe5MuutC-199" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="ZYB_Mh2plfckTe5MuutC-197" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZYB_Mh2plfckTe5MuutC-105" target="ZYB_Mh2plfckTe5MuutC-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="865" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="715" />
+              <mxPoint x="430" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERzeroToMany;startFill=1;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" source="ZYB_Mh2plfckTe5MuutC-111" target="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZYB_Mh2plfckTe5MuutC-104" value="travel List" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="510" y="670" width="180" height="390" as="geometry" />
         </mxCell>
@@ -365,20 +379,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1960" y="1025" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1040" y="925" />
-              <mxPoint x="1040" y="785" />
+              <mxPoint x="1340" y="925" />
+              <mxPoint x="1340" y="785" />
             </Array>
             <mxPoint x="1007" y="820" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZYB_Mh2plfckTe5MuutC-310" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2_h5ujclBvkDeH8czSZX-22" target="ZYB_Mh2plfckTe5MuutC-49" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1177" y="790" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="940" y="895" />
-              <mxPoint x="940" y="585" />
-            </Array>
-            <mxPoint x="1007" y="788.9411764705881" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZYB_Mh2plfckTe5MuutC-159" value="" style="endArrow=ERzeroToOne;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ZYB_Mh2plfckTe5MuutC-27" target="ZYB_Mh2plfckTe5MuutC-98" edge="1">
@@ -505,7 +509,7 @@
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZYB_Mh2plfckTe5MuutC-349" value="숙소" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="740" width="180" height="120" as="geometry" />
+          <mxGeometry x="1440" y="740" width="180" height="120.00000000000023" as="geometry" />
         </mxCell>
         <mxCell id="ZYB_Mh2plfckTe5MuutC-350" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZYB_Mh2plfckTe5MuutC-349" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -632,6 +636,75 @@
         </mxCell>
         <mxCell id="2_h5ujclBvkDeH8czSZX-46" value="name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="2_h5ujclBvkDeH8czSZX-44" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-4" value="카테고리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="476" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=1;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" source="9I5Rq8EeLE3U_67PMXx4-15" target="ZYB_Mh2plfckTe5MuutC-303">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-15" value="ITEM" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="890" y="510" width="180" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-16">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-18" value="no" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-16">
+          <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-19" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-20" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-19">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-21" value="지역번호" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-19">
+          <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-22" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-23" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-22">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-24" value="숙박" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-22">
+          <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-38" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-39" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-38">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-40" value="맛집" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-38">
+          <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-41" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-15">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-42" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-41">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-43" value="관광명소" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="9I5Rq8EeLE3U_67PMXx4-41">
+          <mxGeometry x="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=none;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_h5ujclBvkDeH8czSZX-22" target="ZYB_Mh2plfckTe5MuutC-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="895" />
+              <mxPoint x="1280" y="585" />
+            </Array>
+            <mxPoint x="690" y="895" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9I5Rq8EeLE3U_67PMXx4-44" value="&lt;h1&gt;질문!&lt;/h1&gt;&lt;div&gt;가상의 ITEM의 테이블을 실제로 만들어야하는건지, 자동생성되는건지 -&amp;gt;JPA 이기 때문에 만들어진건가??&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(travel List 와 Place와 다대다 연결을 위한 mapping 테이블이 필요한건지?)&lt;br&gt;&lt;br&gt;ITEM안에 지역,숙소, 맛집, 관광명소 필드를 넣어야하는건지&lt;br&gt;&lt;br&gt;아니면&amp;nbsp;&lt;/div&gt;지역,숙소, 맛집, 관광명소 필드를 따로 만들어야하는건지&lt;br&gt;&lt;br&gt;지역,숙소, 맛집, 관광명소 필드는 무엇이랑 연결이 되야하는건지&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1220" width="530" height="730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
